@@ -1,5 +1,9 @@
 # OSRS Calendar
 
+![Electron](https://img.shields.io/badge/Electron-20232A?logo=electron)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ![App Screenshot](./assets/OSRS-Calendar-Screenshot.png)
 
 A simple desktop calendar app built with HTML, CSS, JavaScript, and ElectronJS.  
@@ -11,7 +15,7 @@ This project is styled and inspired by the MMORPG _Old School RuneScape_, made b
 
 ```
 git clone https://github.com/Brage1025/An-OSRS-Calendar.git
-cd An OSRS Calendar
+cd An-OSRS-Calendar
 ```
 
 ### 2. Install Node.js
@@ -32,6 +36,14 @@ npm run start
 
 This will open An OSRS Calendar as a desktop application powered by Electron.
 
+## Requirements
+
+- **Node.js** v18 or newer recommended
+- **npm** (comes with Node.js)
+- Supported OS:
+  - Windows (tested)
+  - macOS / Linux (not officially tested)
+
 ## Features
 
 - **Old School RuneScape Aesthetic**: Authentic color palette and images scraped from RuneLite and edited to fit the project by me.
@@ -40,11 +52,18 @@ This will open An OSRS Calendar as a desktop application powered by Electron.
 
 ## License
 
+MIT License – see the [LICENSE](LICENSE) file for details.
+
 ### Copyright
 
-© 2026 An OSRS Calendar
+© 2026 Brage1025
 
 This project was made for my own educational growth and is provided solely for educational and demonstration purposes.
+
+## Disclaimer
+
+Old School RuneScape and all related assets are trademarks of **Jagex Ltd.**
+This project is **fan-made**, non-commercial, and created for educational purposes only.
 
 ## Credits & Attribution
 
@@ -59,7 +78,7 @@ This project was made for my own educational growth and is provided solely for e
 I used this template by Nasha Wanich:  
 https://github.com/nasha-wanich/electron-app-template
 
-Her repository provides a super simple boilerplate. I used it to build an Electron desktop app, so why not download the repo and try to make an even better one than this?
+Her repository provides a super simple boilerplate. This template provided a clean starting point for building an Electron desktop app and is highly recommended for beginners exploring Electron development.
 
 ### Special Thanks
 
@@ -68,6 +87,11 @@ Her repository provides a super simple boilerplate. I used it to build an Electr
 ### Potentially Planned Features
 
 - [ ] None
+
+## Known Issues
+
+- Window resizing may cause minor layout shifts
+- No persistent calendar data between sessions
 
 ## How to Contribute
 
